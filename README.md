@@ -13,7 +13,7 @@
 ---
 
 ## 🛠️ Imagen de la práctica:
-![Imagen de la práctica](icc-est-u2-sets/assets/image.png)
+![Imagen de la práctica](assets/image.png)
 
 
 
