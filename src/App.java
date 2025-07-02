@@ -1,19 +1,30 @@
-    import Controller.Sets;
-import java.util.Set;
+
+import Controller.ContactoController;
+
 
     public class App {
         public static void main(String[] args) throws Exception {
-            Sets set = new Sets();
+           /*  Sets set = new Sets();
             System.out.println("Esteban Pesantez ");
             System.out.println("");
             runHashSet(set);
             runLinkedHashSet(set);
             runTreeSet(set);
             runTreeSetWithComparer(set);
-            runTreeSetWithComparer2(set);
+            runTreeSetWithComparer2(set);*/
+            
+            ContactoController contactoController = new ContactoController();
+            System.out.println("Contactos orden alfabetico apellido - nombre");
+            contactoController.runTreeContacto();
+
+            System.out.println("");
+            
+            System.out.println("Contactos orden alfabetico apellido - nombre - telefono (des)");
+            contactoController.runTreeContactoConnumeroTacto();
+            
         }
 
-        public static void runHashSet(Sets set){
+         /*  public static void runHashSet(Sets set){
             Set<String> palabras = set.construirHashSet();
             
             System.out.println("----HASHSET----");
@@ -73,4 +84,5 @@ import java.util.Set;
             }
 
         }
+        */
     }
