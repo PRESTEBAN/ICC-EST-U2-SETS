@@ -14,6 +14,7 @@
 
 ## 🛠️ Imagen de la práctica:
 ![Imagen de la práctica clase 1](assets/image.png)
-![Imagen de la práctica clase 2](assets/image2.png)
+
+![Imagen de la práctica clase 2](assets/image 2.png)
 
 
