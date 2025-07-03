@@ -17,4 +17,5 @@
 
 ![Imagen de la práctica clase 2](assets/image2.png)
 
+## 🛠️Ejercicios:
 ![Ejercicios con sets](assets/image3.png)
