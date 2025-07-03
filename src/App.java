@@ -1,5 +1,6 @@
 
 import Controller.ContactoController;
+import Controller.Ejercicios;
 
 
     public class App {
@@ -13,14 +14,16 @@ import Controller.ContactoController;
             runTreeSetWithComparer(set);
             runTreeSetWithComparer2(set);*/
             
-            ContactoController contactoController = new ContactoController();
+           /* ContactoController contactoController = new ContactoController();
             System.out.println("Contactos orden alfabetico apellido - nombre");
             contactoController.runTreeContacto();
 
             System.out.println("");
             
             System.out.println("Contactos orden alfabetico apellido - nombre - telefono (des)");
-            contactoController.runTreeContactoConnumeroTacto();
+            contactoController.runTreeContactoConnumeroTacto(); */
+
+             Ejercicios e = new Ejercicios();
             
         }
 
